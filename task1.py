@@ -11,3 +11,8 @@ Inputs:
 Sample output:
  Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 """
+#input name please#
+name = str(input())
+#input email please#
+email = str(input())
+print(Your name is "name", and your email is "email". )
