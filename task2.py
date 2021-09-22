@@ -15,8 +15,8 @@
 # volume of sphere is v = 4/3 3.14...*r cubed
 import math
 
-num= input("Enter radius of a sphere.")
-num= int(num)
+num = input("Enter radius of a sphere.")
+num = int(num)
 num2 = 4/3 * 3.14 * num ** 3
 num2 = str(num2)
 print("the volume of a sphere is " + num2)
