@@ -12,3 +12,14 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+import math
+
+A = input("enter a variable:")
+B = input("enter a second variable:")
+C = input("enter a third variable:")
+A = float(A)
+B = float(B)
+C = float(C)
+
+X = (C - B) / -A
+print(X)
